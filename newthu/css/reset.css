@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/************************************
+	the Academy of Arts & Design, 
+	Tsinghua University
+	edit by reflux 2010.12.18
+************************************/
+
+/* initialization */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,image,q,dl,dt,dd,ol,ul,li,fieldset,form,legend,table,tf,tr,th {
+	border: 0px;
+	border-collapse:collapse;
+	padding: 0px; 
+	font-size: 100%; 	
+	margin: 0px; 
+	vertical-align: baseline; 
+	font-family: inherit; 
+}
+
+
+body {
+	background-color: #FFFFFF;
+	color: #3F3F3F;
+	line-height: 18px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+img {
+	vertical-align:top;
+	border: 0px;
+}
+a, a:link {
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+ul, li {
+	list-style-type:none;
+}
+.clear {
+	clear:both; 
+	*display:inline; /*IE only*/
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
